@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&display=swap');
+*{
+    font-family: 'Anuphan', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #00ffcc;
+}
+.container{
+    width: 700px;
+    background-color: white;
+    padding: 12px 15px;
+}
+.selections{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+
+.box{
+    border: 1px solid rgb(112, 107, 107);
+    border-radius: 7.5px;
+}
+.textAreas{
+    padding: 10px;
+    border-top: 2px solid rgb(112, 107, 107);
+    display: flex;
+    border-radius: 7.5px;
+    background-color:white;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 250px;
+    border: none ;
+    font-size: 20px;
+    outline: none;
+    background-color: none;
+}
+.textAreas.from-lang{
+    border-right: 1px solid rgb(112, 107, 107) ;
+}
+.btn{
+    cursor: pointer;
+    width: 100%;
+    background-color: #434343;
+    margin-top: 5px;
+    border: 1px solid #434343;
+    border-radius: 3px;
+    color: white;
+    transition: .4s;
+    height: 30px;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: white;
+    color: #434343;
+}
+.left .fa-volume-up,
+.left .fa-copy {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.right .fa-volume-up,
+.right .fa-copy {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-arrow-right-arrow-left{
+    cursor: pointer;
+}
+.left,
+.right{
+    display: flex;
+}
